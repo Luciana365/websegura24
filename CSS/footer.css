@@ -1,0 +1,79 @@
+/* Estilos para el pie de página */
+footer {
+  background-color: #2f0d94; /* Color de fondo del pie de página */
+  padding: 10px 0; /* Relleno superior e inferior */
+  text-align: center; /* Centra el contenido del pie de página */
+  color: white; /* Color del texto */
+  width: 100%; /* Asegura que el pie de página ocupe todo el ancho */
+  scroll-behavior: smooth;
+}
+
+.footer-container {
+  display: flex; /* Utilizo flexbox para alinear los elementos */
+  flex-direction: column; /* Cambia la dirección a columna para alinear verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  gap: 15px; /* Espacio entre los elementos */
+}
+
+.footer-icons {
+  display: flex; /* Utilizo flexbox para alinear los elementos */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 15px; /* Espacio entre los elementos */
+}
+
+.icon-example {
+  color: white; /* Color del texto de los enlaces */
+  text-decoration: none; /* Elimino el subrayado de los enlaces */
+  font-size: 1.5em; /* Tamaño de fuente de los enlaces */
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+  margin: 0 10px; /* Espacio entre los enlaces */
+}
+
+.icon-example:hover {
+  color: #797fa5; /* Color de los enlaces al pasar el cursor */
+}
+
+.texto-footer {
+  margin-top: 10px; /* Margen superior */
+  font-size: 1.2em; /* Tamaño de fuente */
+  color: #faf3f3; /* Color  */
+  text-align: center; /* esté centrado */
+  
+}
+.texto{  
+  margin: 2px; /* Espaciado*/ 
+  text-align: center; /* Alinea texto al centro dentro de cada columna */  
+} 
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  footer {
+    padding: 10px 0; /* Reduce el padding en pantallas más pequeñas */
+  }
+  
+  .footer-container {
+    flex-direction: column; /* Cambiar la dirección del flex a columna en pantallas pequeñas */
+    gap: 10px; /* Reducir el espacio entre los elementos */
+    padding: 10px 0; /* Reducir el padding interno */
+  }
+
+  .footer-icons {
+    flex-direction: row; /* Asegura que los iconos estén alineados en fila */
+    gap: 10px; /* Reducir el espacio entre iconos */
+  }
+
+  .icon-example {
+    font-size: 1.2em; /* Reducir el tamaño de los iconos en pantallas pequeñas */
+  }
+
+  .parrafo-footer{
+    font-size: 14px;
+    margin: 10px;
+
+  }
+  .texto-footer{
+    font-size: 12px;
+  }
+}
+
+
