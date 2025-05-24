@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Cargar componentes
-  loadComponent("head.html", "head");
+  loadComponent("./head.html", "head");
   loadComponent("./nav.html", "nav");
   loadComponent("./footer.html", "footer");
 
