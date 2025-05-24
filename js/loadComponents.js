@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Cargar componentes
-  loadComponent("./head.html", "head");
-  loadComponent("./nav.html", "nav");
-  loadComponent("./footer.html", "footer");
+  loadComponent("head.html", "head");
+  loadComponent("nav.html", "nav");
+  loadComponent("footer.html", "footer");
 
   // Configurar enlace de correo
   const emailLink = document.getElementById('email-link');  
