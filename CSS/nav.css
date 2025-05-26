@@ -20,7 +20,6 @@ html {
 body {
     font-family: var(--font-family)!important;
     line-height: 1.5!important;
-    font-size: 1rem; /* o 16px  */
     margin: 0;
     padding-top: 120px; /* Ajustar este valor según el tamaño del encabezado */
     background-color: var(--body-color);
@@ -156,7 +155,7 @@ h3 {
 /* Estilos para los párrafos */
 p {
     font-family: var(--font-family);
-    font-size: 1.1rem;/* 17.6px */
+    font-size: 1rem;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 20px;/* Espacio inferior para separar secciones */
@@ -186,7 +185,7 @@ p {
 
     }
     h2 {
-        font-size: 1.8rem; /*  28.8px Reduce el tamaño de la fuente en dispositivos móviles */
+        font-size: 1.6rem; /*  Reduce el tamaño de la fuente en dispositivos móviles */
         margin-top: 10px; /* Ajusta el margen superior */
         margin-bottom: 5px; /* Ajusta el margen inferior */
         text-align: center; /* Mantén la alineación centrada */
@@ -202,8 +201,10 @@ p {
         margin-bottom: 10px; /* Reduce la separación entre secciones */
                       }
 
-    .side-image {
-        display: none; /* Oculta las imágenes en dispositivos móviles */
+        .side-image {
+        width: 125px;
+        margin-right: 5px;
+        margin-bottom: 5px;
                  }
 
     .site-title {
